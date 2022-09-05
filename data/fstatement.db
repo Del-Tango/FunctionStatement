@@ -1,10 +1,9 @@
-#!/bin/bash
 #
 # Regards, the Alveare Solutions society.
 #
 # Action BOMs (Bills Of Materials)
 
-# <BOM-ID>        ,<action-label>            ,<project> ,<version>          ,<BOM-Instructions>
+# <BOM-ID>        ,<action-label>                                  ,<project>       ,<version>          ,<BOM-Instructions>
 sgv14111          ,find-traffic-with-evil-bit                      ,SMxGrimoire     ,v1.4MomentoMori    ,(*) -> (1) -> (1) -> (1)
 sgv14112          ,find-cleartext-passwords                        ,SMxGrimoire     ,v1.4MomentoMori    ,(*) -> (1) -> (1) -> (2)
 sgv14113          ,find-ntp-traffic                                ,SMxGrimoire     ,v1.4MomentoMori    ,(*) -> (1) -> (1) -> (3)
