@@ -45,8 +45,6 @@ for library in ${!FS_LIB[@]}; do
     fi
 done
 
-# DISPLAY
-
 # INIT
 
 function init_fstatement_cli () {

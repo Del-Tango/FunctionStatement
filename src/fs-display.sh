@@ -63,21 +63,14 @@ function display_stats () {
     return $?
 }
 
-
-FS_SCRIPT_NAME='F.Statement'
-FS_PS3='FStatement> '
-FS_VERSION='KnowItAll'
-FS_VERSION_NUMBER='1.0'
-
-
 function display_header () {
      cat <<EOF
 
     ___________________________________________________________________________
 
-     *              *            *  ${FS_SCRIPT_NAME}  *             *             *
+     *                           *  ${FS_SCRIPT_NAME}  *                           *
     _____________________________________________________v${FS_VERSION_NUMBER}${FS_VERSION}_________
-                       Regards, the Alveare Solutions society
+                Excellent Regards, the Alveare Solutions #!/Society -x
 
 EOF
     return $?
