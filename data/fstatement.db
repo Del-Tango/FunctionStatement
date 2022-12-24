@@ -512,4 +512,22 @@ fxfvkdlt          ,Display Log Tail                                ,F.O.X.Face  
 fxfvkdlh          ,Display Log Head                                ,F.O.X.Face      ,v1.0KrypticMinds   ,(*) -> (6) -> (2)
 fxfvkdm           ,Display More                                    ,F.O.X.Face      ,v1.0KrypticMinds   ,(*) -> (6) -> (3)
 fxfvkclf          ,Clear Log File                                  ,F.O.X.Face      ,v1.0KrypticMinds   ,(*) -> (6) -> (4  + y)
+fssivtsi          ,Stream Injection                                ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (1) + n
+fssivtssof        ,Set Safety OFF                                  ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (1  + y)
+fssivtsson        ,Set Safety ON                                   ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (2  + y)
+fssivtsbd         ,Set Block Device                                ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (3  + <dev-path>)
+fssivtsbs         ,Set Block Size                                  ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (4  + <bytes>)
+fssivtsisn        ,Set Initial Sector Number                       ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (5  + <sector>)
+fssivtstf         ,Set Temporary File                              ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (6  + <file-path>)
+fssivtcso         ,Compute Sectors Occupied                        ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (7)
+fssivtidff        ,Import Data From File                           ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (8  + <file-path>)
+fssivtedm         ,Edit Data Manually                              ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (9  + <data>)
+fssivtid          ,Install Dependencies                            ,(FSS)Injection  ,v1.0Tattoo         ,(*) -> (2) -> (10 + y)
+uvvmshdv          ,Sector HexDump View                             ,Underground(V)  ,v1.0MicroScope     ,(*) -> (1) + y|n
+uvvmsbd           ,Set Block Device                                ,Underground(V)  ,v1.0MicroScope     ,(*) -> (2) -> (1 + <dev-path>)
+uvvmsbs           ,Set Block Size                                  ,Underground(V)  ,v1.0MicroScope     ,(*) -> (2) -> (2 + <bytes>)
+uvvmsssn          ,Set Start Sector Number                         ,Underground(V)  ,v1.0MicroScope     ,(*) -> (2) -> (3 + <sector>)
+uvvmsesc          ,Set End Sector Count                            ,Underground(V)  ,v1.0MicroScope     ,(*) -> (2) -> (4 + <secotor>)
+uvvmsfwm          ,Set File Writer Mode                            ,Underground(V)  ,v1.0MicroScope     ,(*) -> (2) -> (5) -> (<mode>)
+uvvmidep          ,Install Dependencies                            ,Underground(V)  ,v1.0MicroScope     ,(*) -> (2) -> (6 + y)
 
